@@ -1,0 +1,8 @@
+bin/
+obj/
+.vs/
+v15/
+packages/
+*.zip
+Hash
+TestarProxies/
