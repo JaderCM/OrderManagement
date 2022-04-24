@@ -4,6 +4,9 @@ Web API project to manage orders using single JSON local file.
 ## About the project
 Simple API using .NET Core 6.
 
+## Prerequisites
+[.NET Core SDK 6](https://dotnet.microsoft.com/en-us/download/dotnet/6.0)
+
 ## Usage
 Execute the command `dotnet run` and open the listening port with the path `/swagger`.
 
