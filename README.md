@@ -8,7 +8,7 @@ Simple API using .NET Core 6.
 [.NET Core SDK 6](https://dotnet.microsoft.com/en-us/download/dotnet/6.0)
 
 ## Usage
-Execute the command `dotnet run` and open the listening port with the path `/swagger`.
+Execute the command `dotnet run --project OrderManagement` and open the listening port with the path `/swagger`.
 
 ![image](https://user-images.githubusercontent.com/33452163/164989991-f242a366-faf0-4dfa-9899-e00ef5f180df.png)
 
