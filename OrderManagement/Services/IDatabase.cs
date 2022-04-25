@@ -4,6 +4,6 @@ namespace OrderManagement.Services
 {
     public interface IDatabase
     {
-        public Context GetContext(bool readOnly = false);
+        public IContext GetContext(bool readOnly = false);
     }
 }

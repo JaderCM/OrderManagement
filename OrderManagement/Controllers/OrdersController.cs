@@ -59,7 +59,6 @@ namespace OrderManagement.Controllers
             [FromQuery] DateTimeOffset? paginatedLastOrderDate = null,
             [FromQuery] int pageSize = 10)
         {
-
             var paginationToken = paginatedLastOrderId == null || paginatedLastOrderDate == null
                 ? null
                 : $"{paginatedLastOrderDate.Value.ToUnixTimeSeconds()}{paginatedLastOrderId}";

@@ -1,3 +1,5 @@
+.vs/
+Coverage/
 bin/
 obj/
-.vs/
+TestResults/
